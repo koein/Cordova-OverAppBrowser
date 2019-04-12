@@ -87,6 +87,7 @@ public class OverAppBrowser extends CordovaPlugin {
     private static final String CLEAR_ALL_CACHE = "clearcache";
     private static final String CLEAR_SESSION_CACHE = "clearsessioncache";
     private static final String HARDWARE_BACK_BUTTON = "hardwareback";
+    private static final String ACCEPT_THIRD_PARTY_COOKIES = "acceptThirdPartyCookies";
 
     private OverAppBrowserDialog dialog;
     private WebView inAppWebView;
@@ -98,6 +99,7 @@ public class OverAppBrowser extends CordovaPlugin {
     private boolean clearAllCache = false;
     private boolean clearSessionCache = false;
     private boolean hadwareBackButton = true;
+    private boolean acceptThirdPartyCookies = true;
 
     /**
      * Executes the request and returns PluginResult.
